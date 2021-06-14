@@ -83,8 +83,10 @@ h3 {
   padding: 0;
   margin: 0;
 }
-h3 + * {
-  margin-top: 2rem !important;
+@media (min-width: 1000px) {
+  h3 + * {
+    margin-top: 2rem !important;
+  }
 }
 
 a {
@@ -232,8 +234,9 @@ nav a:nth-child(5) {
 
 #categories-intro {
   max-width: 90ch;
-  margin: 0 auto;
   color: #0092fc;
+  margin: 0 auto;
+  padding: 3em 0;
 }
 #categories-intro h2 {
   font-weight: 500;
@@ -484,12 +487,11 @@ p .button {
   transition: opacity 0.1s ease-in;
 }
 .category-entry .html .button:hover {
-  background: #eee !important;
+  background: #EEE !important;
   color: inherit;
 }
 .category-entry .html .button:hover::after {
-  border-color: black;
-  box-sizing: border-box;
+  display: none;
 }
 @media (max-width: 1000px) {
   .category-entry {
@@ -599,7 +601,7 @@ p .button {
   cursor: pointer;
   border-radius: 0.5em;
   text-align: center;
-  margin: 0.3em 0.1em;
+  margin: 0.8em 0.9em;
   padding: 0.45em 0.5em 0.35em;
   display: inline-block;
   transition: transform 0.1s ease-in-out;
@@ -641,18 +643,15 @@ input ::placeholder {
   opacity: 0;
 }
 .checkbox:not(.rounded) input:checked + span::after {
-  transform: rotate(40deg);
-  transform-origin: 100% 66%;
-  display: block;
-  position: absolute;
   content: "";
-  top: 0;
+  bottom: 0;
   left: 0;
-  height: 125%;
-  width: 66%;
-  border-right: 6px solid #000;
-  border-bottom: 6px solid #000;
-  box-sizing: border-box;
+  height: 120%;
+  width: 120%;
+  position: absolute;
+  background: url(../assets/checked.svg);
+  background-repeat: no-repeat;
+  background-position: 0 100%;
 }
 .checkbox.rounded {
   width: 1.7em;
