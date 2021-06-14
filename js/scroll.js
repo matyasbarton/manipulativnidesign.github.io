@@ -28,16 +28,17 @@ const callback = (entries, observer) => {
         }
         else {
             if (Boolean(item.target.dataset.isIntersecting) === true) {
-                eval(item.target.dataset.callback)()
+                eval(item.target.querySelector("div").dataset.callback)()
                 item.target.dataset.isIntersecting = 0
-                console.log(item.target.dataset.callback, "changed")
             }
         }
     })
 }
 
-let observer = new IntersectionObserver(callback, options)
-document.querySelectorAll("[data-callback]").forEach(item => {
-    observer.observe(item)
-})
+if (IntersectionObserver !== undefined) {
+    let observer = new IntersectionObserver(callback, options)
+    document.querySelectorAll("[data-callback]").forEach(item => {
+        observer.observe(item.parentElement)
+    })
+}
   
