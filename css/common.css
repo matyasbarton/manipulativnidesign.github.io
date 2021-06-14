@@ -364,12 +364,7 @@ p {
 
 .link {
   position: absolute;
-  top: -9rem;
-}
-@media (min-width: 1000px) {
-  .link {
-    top: -6rem;
-  }
+  top: -6rem;
 }
 
 .links {
