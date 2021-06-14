@@ -6,5 +6,38 @@ window.addEventListener("scroll", () => {
             download.click()
             localStorage['visited'] = true
         }
+        const watch = ["#hard-click"]
+        const restarters = ["hardClickRestart"]
+        for (let i=0; i<watch.length; i++) {
+            el = document.querySelector(watch[i])
+        }
     }
-}) 
+})
+
+
+
+let options = {
+    root: null,
+    threshold: 0
+  }
+
+const callback = (entries, observer) => {
+    entries.forEach(item => {
+        if (item.isIntersecting) {
+            item.target.dataset.isIntersecting = 1
+        }
+        else {
+            if (Boolean(item.target.dataset.isIntersecting) === true) {
+                eval(item.target.dataset.callback)()
+                item.target.dataset.isIntersecting = 0
+                console.log(item.target.dataset.callback, "changed")
+            }
+        }
+    })
+}
+
+let observer = new IntersectionObserver(callback, options)
+document.querySelectorAll("[data-callback]").forEach(item => {
+    observer.observe(item)
+})
+  
