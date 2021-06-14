@@ -888,7 +888,7 @@
 }
 @media (max-width: 1000px) {
   #falesne-recenze .reviewWrapper {
-    padding: 0.2em;
+    padding: 0.8em 0.2em 0.4em;
   }
 }
 #falesne-recenze .reviewWrapper .name {
@@ -897,7 +897,12 @@
 }
 #falesne-recenze .reviewWrapper .stars {
   height: 10px;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.1rem;
+}
+@media (min-width: 1000px) {
+  #falesne-recenze .reviewWrapper .stars {
+    margin-bottom: 0.5rem;
+  }
 }
 #falesne-recenze .reviewWrapper .stars > * {
   background-image: url("../assets/star.svg");
@@ -993,8 +998,8 @@
 }
 #hard-click > #confetti > *:nth-child(5n+1) > * {
   background: purple;
-  width: 7px;
-  height: 8px;
+  width: 10px;
+  height: 10px;
 }
 #hard-click > #confetti > *:nth-child(5n+2) > * {
   background: red;
@@ -1004,435 +1009,435 @@
 #hard-click > #confetti > *:nth-child(5n+3) > * {
   background: yellow;
   width: 10px;
-  height: 9px;
+  height: 7px;
 }
 #hard-click > #confetti > *:nth-child(5n+4) > * {
   background: pink;
   width: 9px;
-  height: 9px;
+  height: 10px;
 }
 #hard-click > #confetti > *:nth-child(5n+5) > * {
   background: green;
-  width: 9px;
+  width: 7px;
   height: 7px;
 }
 #hard-click > #confetti > *:nth-child(6n+1) > * {
-  transform: skew(12deg) rotate(-1deg);
+  transform: skew(13deg) rotate(-10deg);
 }
 #hard-click > #confetti > *:nth-child(6n+2) > * {
-  transform: skew(11deg) rotate(-6deg);
+  transform: skew(15deg) rotate(7deg);
 }
 #hard-click > #confetti > *:nth-child(6n+3) > * {
-  transform: skew(12deg) rotate(6deg);
+  transform: skew(13deg) rotate(1deg);
 }
 #hard-click > #confetti > *:nth-child(6n+4) > * {
-  transform: skew(15deg) rotate(-1deg);
+  transform: skew(20deg) rotate(8deg);
 }
 #hard-click > #confetti > *:nth-child(6n+5) > * {
-  transform: skew(19deg) rotate(-1deg);
+  transform: skew(11deg) rotate(2deg);
 }
 #hard-click > #confetti > *:nth-child(6n+6) > * {
-  transform: skew(19deg) rotate(9deg);
+  transform: skew(19deg) rotate(-2deg);
 }
 #hard-click > #confetti > *:nth-child(1) {
-  left: 41%;
-  animation-delay: -0.49s;
+  left: 90%;
+  animation-delay: -0.64s;
 }
 #hard-click > #confetti > *:nth-child(1) > * {
   animation-duration: 5s;
-  animation-delay: -2.2s;
+  animation-delay: -4.9s;
 }
 #hard-click > #confetti > *:nth-child(2) {
-  left: 71%;
-  animation-delay: -0.55s;
+  left: 2%;
+  animation-delay: -0.57s;
 }
 #hard-click > #confetti > *:nth-child(2) > * {
   animation-duration: 4s;
-  animation-delay: -1.6s;
+  animation-delay: -4.2s;
 }
 #hard-click > #confetti > *:nth-child(3) {
-  left: 64%;
-  animation-delay: -0.84s;
+  left: 47%;
+  animation-delay: -0.58s;
 }
 #hard-click > #confetti > *:nth-child(3) > * {
-  animation-duration: 5s;
-  animation-delay: -7s;
+  animation-duration: 4s;
+  animation-delay: -4.2s;
 }
 #hard-click > #confetti > *:nth-child(4) {
-  left: 63%;
-  animation-delay: -0.35s;
+  left: 82%;
+  animation-delay: -0.25s;
 }
 #hard-click > #confetti > *:nth-child(4) > * {
-  animation-duration: 5s;
-  animation-delay: -3.3s;
+  animation-duration: 4s;
+  animation-delay: -9.9s;
 }
 #hard-click > #confetti > *:nth-child(5) {
-  left: 74%;
-  animation-delay: -0.71s;
+  left: 26%;
+  animation-delay: -0.54s;
 }
 #hard-click > #confetti > *:nth-child(5) > * {
-  animation-duration: 4s;
-  animation-delay: -6.1s;
+  animation-duration: 5s;
+  animation-delay: -1.8s;
 }
 #hard-click > #confetti > *:nth-child(6) {
-  left: 4%;
-  animation-delay: -0.27s;
+  left: 89%;
+  animation-delay: -0.6s;
 }
 #hard-click > #confetti > *:nth-child(6) > * {
   animation-duration: 5s;
-  animation-delay: -6.7s;
+  animation-delay: -3.4s;
 }
 #hard-click > #confetti > *:nth-child(7) {
-  left: 22%;
-  animation-delay: -0.09s;
+  left: 100%;
+  animation-delay: -0.47s;
 }
 #hard-click > #confetti > *:nth-child(7) > * {
-  animation-duration: 4s;
-  animation-delay: -7.4s;
+  animation-duration: 5s;
+  animation-delay: -1.7s;
 }
 #hard-click > #confetti > *:nth-child(8) {
-  left: 72%;
-  animation-delay: -0.99s;
+  left: 74%;
+  animation-delay: -0.78s;
 }
 #hard-click > #confetti > *:nth-child(8) > * {
-  animation-duration: 4s;
-  animation-delay: -9.8s;
+  animation-duration: 5s;
+  animation-delay: -9.2s;
 }
 #hard-click > #confetti > *:nth-child(9) {
-  left: 34%;
-  animation-delay: -0.83s;
+  left: 95%;
+  animation-delay: -0.95s;
 }
 #hard-click > #confetti > *:nth-child(9) > * {
-  animation-duration: 5s;
-  animation-delay: -8.6s;
+  animation-duration: 4s;
+  animation-delay: -1s;
 }
 #hard-click > #confetti > *:nth-child(10) {
-  left: 74%;
-  animation-delay: -0.98s;
+  left: 21%;
+  animation-delay: -0.94s;
 }
 #hard-click > #confetti > *:nth-child(10) > * {
-  animation-duration: 5s;
-  animation-delay: -1.2s;
+  animation-duration: 4s;
+  animation-delay: -7.2s;
 }
 #hard-click > #confetti > *:nth-child(11) {
-  left: 57%;
-  animation-delay: -0.84s;
+  left: 42%;
+  animation-delay: -0.52s;
 }
 #hard-click > #confetti > *:nth-child(11) > * {
-  animation-duration: 5s;
-  animation-delay: -7.4s;
+  animation-duration: 4s;
+  animation-delay: -5.6s;
 }
 #hard-click > #confetti > *:nth-child(12) {
-  left: 86%;
-  animation-delay: -0.09s;
+  left: 99%;
+  animation-delay: -0.66s;
 }
 #hard-click > #confetti > *:nth-child(12) > * {
   animation-duration: 5s;
-  animation-delay: -7.1s;
+  animation-delay: -7.4s;
 }
 #hard-click > #confetti > *:nth-child(13) {
-  left: 83%;
-  animation-delay: -0.48s;
+  left: 71%;
+  animation-delay: -0.73s;
 }
 #hard-click > #confetti > *:nth-child(13) > * {
   animation-duration: 4s;
-  animation-delay: -2.4s;
+  animation-delay: -1.8s;
 }
 #hard-click > #confetti > *:nth-child(14) {
-  left: 25%;
-  animation-delay: -0.47s;
+  left: 98%;
+  animation-delay: -0.88s;
 }
 #hard-click > #confetti > *:nth-child(14) > * {
-  animation-duration: 4s;
-  animation-delay: -8.2s;
+  animation-duration: 5s;
+  animation-delay: -4.8s;
 }
 #hard-click > #confetti > *:nth-child(15) {
-  left: 64%;
-  animation-delay: -0.16s;
+  left: 23%;
+  animation-delay: -0.76s;
 }
 #hard-click > #confetti > *:nth-child(15) > * {
-  animation-duration: 5s;
-  animation-delay: -7.7s;
+  animation-duration: 4s;
+  animation-delay: -5.7s;
 }
 #hard-click > #confetti > *:nth-child(16) {
   left: 26%;
   animation-delay: -0.76s;
 }
 #hard-click > #confetti > *:nth-child(16) > * {
-  animation-duration: 4s;
-  animation-delay: -6.8s;
+  animation-duration: 5s;
+  animation-delay: -2.3s;
 }
 #hard-click > #confetti > *:nth-child(17) {
-  left: 37%;
-  animation-delay: -0.54s;
+  left: 8%;
+  animation-delay: -0.89s;
 }
 #hard-click > #confetti > *:nth-child(17) > * {
   animation-duration: 4s;
-  animation-delay: -1s;
+  animation-delay: -8.4s;
 }
 #hard-click > #confetti > *:nth-child(18) {
-  left: 1%;
-  animation-delay: -0.1s;
+  left: 58%;
+  animation-delay: -0.5s;
 }
 #hard-click > #confetti > *:nth-child(18) > * {
   animation-duration: 5s;
-  animation-delay: -0.2s;
+  animation-delay: -1.1s;
 }
 #hard-click > #confetti > *:nth-child(19) {
-  left: 5%;
-  animation-delay: -0.81s;
+  left: 58%;
+  animation-delay: -0.55s;
 }
 #hard-click > #confetti > *:nth-child(19) > * {
-  animation-duration: 5s;
-  animation-delay: -8.3s;
+  animation-duration: 4s;
+  animation-delay: -4.2s;
 }
 #hard-click > #confetti > *:nth-child(20) {
-  left: 80%;
-  animation-delay: -0.99s;
+  left: 35%;
+  animation-delay: -0.41s;
 }
 #hard-click > #confetti > *:nth-child(20) > * {
   animation-duration: 4s;
-  animation-delay: -8.2s;
+  animation-delay: -5.8s;
 }
 #hard-click > #confetti > *:nth-child(21) {
-  left: 21%;
-  animation-delay: -0.98s;
+  left: 72%;
+  animation-delay: -0.77s;
 }
 #hard-click > #confetti > *:nth-child(21) > * {
-  animation-duration: 4s;
-  animation-delay: -7.5s;
+  animation-duration: 5s;
+  animation-delay: -3.9s;
 }
 #hard-click > #confetti > *:nth-child(22) {
-  left: 7%;
-  animation-delay: -0.27s;
+  left: 80%;
+  animation-delay: -0.87s;
 }
 #hard-click > #confetti > *:nth-child(22) > * {
-  animation-duration: 4s;
-  animation-delay: -2.4s;
+  animation-duration: 5s;
+  animation-delay: -6.8s;
 }
 #hard-click > #confetti > *:nth-child(23) {
-  left: 91%;
-  animation-delay: -0.06s;
+  left: 63%;
+  animation-delay: -0.76s;
 }
 #hard-click > #confetti > *:nth-child(23) > * {
   animation-duration: 4s;
-  animation-delay: -2.2s;
+  animation-delay: -8.3s;
 }
 #hard-click > #confetti > *:nth-child(24) {
-  left: 90%;
-  animation-delay: -0.51s;
+  left: 60%;
+  animation-delay: -0.08s;
 }
 #hard-click > #confetti > *:nth-child(24) > * {
   animation-duration: 5s;
-  animation-delay: -6.3s;
+  animation-delay: -2.4s;
 }
 #hard-click > #confetti > *:nth-child(25) {
-  left: 32%;
-  animation-delay: -0.6s;
+  left: 98%;
+  animation-delay: -0.03s;
 }
 #hard-click > #confetti > *:nth-child(25) > * {
-  animation-duration: 5s;
-  animation-delay: -9s;
+  animation-duration: 4s;
+  animation-delay: -5.8s;
 }
 #hard-click > #confetti > *:nth-child(26) {
-  left: 79%;
-  animation-delay: -0.7s;
+  left: 39%;
+  animation-delay: -0.01s;
 }
 #hard-click > #confetti > *:nth-child(26) > * {
   animation-duration: 4s;
-  animation-delay: -6.5s;
+  animation-delay: -7.3s;
 }
 #hard-click > #confetti > *:nth-child(27) {
-  left: 35%;
-  animation-delay: -0.4s;
+  left: 30%;
+  animation-delay: -0.55s;
 }
 #hard-click > #confetti > *:nth-child(27) > * {
-  animation-duration: 4s;
-  animation-delay: -6s;
+  animation-duration: 5s;
+  animation-delay: -2.7s;
 }
 #hard-click > #confetti > *:nth-child(28) {
-  left: 31%;
-  animation-delay: -0.21s;
+  left: 77%;
+  animation-delay: -0.46s;
 }
 #hard-click > #confetti > *:nth-child(28) > * {
   animation-duration: 4s;
-  animation-delay: -4.3s;
+  animation-delay: -7.2s;
 }
 #hard-click > #confetti > *:nth-child(29) {
-  left: 27%;
-  animation-delay: -0.3s;
+  left: 72%;
+  animation-delay: -0.33s;
 }
 #hard-click > #confetti > *:nth-child(29) > * {
   animation-duration: 5s;
-  animation-delay: -3.1s;
+  animation-delay: -2.4s;
 }
 #hard-click > #confetti > *:nth-child(30) {
-  left: 49%;
-  animation-delay: -0.41s;
+  left: 78%;
+  animation-delay: -0.5s;
 }
 #hard-click > #confetti > *:nth-child(30) > * {
-  animation-duration: 5s;
-  animation-delay: -6.5s;
-}
-#hard-click > #confetti > *:nth-child(31) {
-  left: 90%;
-  animation-delay: -0.81s;
-}
-#hard-click > #confetti > *:nth-child(31) > * {
-  animation-duration: 5s;
-  animation-delay: -8.2s;
-}
-#hard-click > #confetti > *:nth-child(32) {
-  left: 24%;
-  animation-delay: -0.93s;
-}
-#hard-click > #confetti > *:nth-child(32) > * {
-  animation-duration: 4s;
-  animation-delay: -7.1s;
-}
-#hard-click > #confetti > *:nth-child(33) {
-  left: 95%;
-  animation-delay: -0.54s;
-}
-#hard-click > #confetti > *:nth-child(33) > * {
-  animation-duration: 5s;
-  animation-delay: -7.3s;
-}
-#hard-click > #confetti > *:nth-child(34) {
-  left: 23%;
-  animation-delay: -0.15s;
-}
-#hard-click > #confetti > *:nth-child(34) > * {
-  animation-duration: 4s;
-  animation-delay: -5.5s;
-}
-#hard-click > #confetti > *:nth-child(35) {
-  left: 79%;
-  animation-delay: -0.78s;
-}
-#hard-click > #confetti > *:nth-child(35) > * {
-  animation-duration: 5s;
-  animation-delay: -3s;
-}
-#hard-click > #confetti > *:nth-child(36) {
-  left: 8%;
-  animation-delay: -0.45s;
-}
-#hard-click > #confetti > *:nth-child(36) > * {
-  animation-duration: 5s;
-  animation-delay: -0.3s;
-}
-#hard-click > #confetti > *:nth-child(37) {
-  left: 9%;
-  animation-delay: -0.64s;
-}
-#hard-click > #confetti > *:nth-child(37) > * {
-  animation-duration: 4s;
-  animation-delay: -8.8s;
-}
-#hard-click > #confetti > *:nth-child(38) {
-  left: 74%;
-  animation-delay: -0.28s;
-}
-#hard-click > #confetti > *:nth-child(38) > * {
-  animation-duration: 5s;
-  animation-delay: -4.6s;
-}
-#hard-click > #confetti > *:nth-child(39) {
-  left: 90%;
-  animation-delay: -0.71s;
-}
-#hard-click > #confetti > *:nth-child(39) > * {
-  animation-duration: 4s;
-  animation-delay: -6.3s;
-}
-#hard-click > #confetti > *:nth-child(40) {
-  left: 58%;
-  animation-delay: -0.18s;
-}
-#hard-click > #confetti > *:nth-child(40) > * {
   animation-duration: 4s;
   animation-delay: -6.9s;
 }
-#hard-click > #confetti > *:nth-child(41) {
-  left: 88%;
-  animation-delay: -0.34s;
+#hard-click > #confetti > *:nth-child(31) {
+  left: 21%;
+  animation-delay: -0.92s;
 }
-#hard-click > #confetti > *:nth-child(41) > * {
+#hard-click > #confetti > *:nth-child(31) > * {
   animation-duration: 4s;
-  animation-delay: -9.1s;
+  animation-delay: -7.3s;
 }
-#hard-click > #confetti > *:nth-child(42) {
-  left: 69%;
+#hard-click > #confetti > *:nth-child(32) {
+  left: 92%;
+  animation-delay: -0.85s;
+}
+#hard-click > #confetti > *:nth-child(32) > * {
+  animation-duration: 5s;
+  animation-delay: -0.9s;
+}
+#hard-click > #confetti > *:nth-child(33) {
+  left: 48%;
+  animation-delay: -0.11s;
+}
+#hard-click > #confetti > *:nth-child(33) > * {
+  animation-duration: 5s;
+  animation-delay: -5.9s;
+}
+#hard-click > #confetti > *:nth-child(34) {
+  left: 97%;
   animation-delay: -0.42s;
 }
-#hard-click > #confetti > *:nth-child(42) > * {
+#hard-click > #confetti > *:nth-child(34) > * {
   animation-duration: 5s;
-  animation-delay: -2s;
+  animation-delay: -8.2s;
+}
+#hard-click > #confetti > *:nth-child(35) {
+  left: 12%;
+  animation-delay: -0.37s;
+}
+#hard-click > #confetti > *:nth-child(35) > * {
+  animation-duration: 5s;
+  animation-delay: -7.2s;
+}
+#hard-click > #confetti > *:nth-child(36) {
+  left: 37%;
+  animation-delay: -0.7s;
+}
+#hard-click > #confetti > *:nth-child(36) > * {
+  animation-duration: 5s;
+  animation-delay: -8s;
+}
+#hard-click > #confetti > *:nth-child(37) {
+  left: 25%;
+  animation-delay: -0.48s;
+}
+#hard-click > #confetti > *:nth-child(37) > * {
+  animation-duration: 4s;
+  animation-delay: -0.4s;
+}
+#hard-click > #confetti > *:nth-child(38) {
+  left: 45%;
+  animation-delay: -0.79s;
+}
+#hard-click > #confetti > *:nth-child(38) > * {
+  animation-duration: 4s;
+  animation-delay: -8s;
+}
+#hard-click > #confetti > *:nth-child(39) {
+  left: 88%;
+  animation-delay: -0.04s;
+}
+#hard-click > #confetti > *:nth-child(39) > * {
+  animation-duration: 4s;
+  animation-delay: -7.8s;
+}
+#hard-click > #confetti > *:nth-child(40) {
+  left: 11%;
+  animation-delay: -0.51s;
+}
+#hard-click > #confetti > *:nth-child(40) > * {
+  animation-duration: 5s;
+  animation-delay: -9.6s;
+}
+#hard-click > #confetti > *:nth-child(41) {
+  left: 35%;
+  animation-delay: -0.49s;
+}
+#hard-click > #confetti > *:nth-child(41) > * {
+  animation-duration: 5s;
+  animation-delay: -1.7s;
+}
+#hard-click > #confetti > *:nth-child(42) {
+  left: 2%;
+  animation-delay: -0.17s;
+}
+#hard-click > #confetti > *:nth-child(42) > * {
+  animation-duration: 4s;
+  animation-delay: -3.4s;
 }
 #hard-click > #confetti > *:nth-child(43) {
-  left: 71%;
-  animation-delay: -0.93s;
+  left: 95%;
+  animation-delay: -0.63s;
 }
 #hard-click > #confetti > *:nth-child(43) > * {
   animation-duration: 4s;
-  animation-delay: -4.5s;
+  animation-delay: -2.2s;
 }
 #hard-click > #confetti > *:nth-child(44) {
-  left: 74%;
-  animation-delay: -0.58s;
+  left: 33%;
+  animation-delay: -0.35s;
 }
 #hard-click > #confetti > *:nth-child(44) > * {
   animation-duration: 4s;
-  animation-delay: -2.4s;
+  animation-delay: -7.3s;
 }
 #hard-click > #confetti > *:nth-child(45) {
-  left: 4%;
-  animation-delay: -0.48s;
+  left: 68%;
+  animation-delay: -0.95s;
 }
 #hard-click > #confetti > *:nth-child(45) > * {
-  animation-duration: 4s;
-  animation-delay: -0.5s;
+  animation-duration: 5s;
+  animation-delay: -1.8s;
 }
 #hard-click > #confetti > *:nth-child(46) {
-  left: 97%;
-  animation-delay: -0.46s;
+  left: 29%;
+  animation-delay: -0.86s;
 }
 #hard-click > #confetti > *:nth-child(46) > * {
-  animation-duration: 4s;
-  animation-delay: -8.3s;
+  animation-duration: 5s;
+  animation-delay: -1.8s;
 }
 #hard-click > #confetti > *:nth-child(47) {
-  left: 58%;
-  animation-delay: -0.74s;
+  left: 49%;
+  animation-delay: -0.09s;
 }
 #hard-click > #confetti > *:nth-child(47) > * {
   animation-duration: 4s;
-  animation-delay: -4.7s;
+  animation-delay: -3.6s;
 }
 #hard-click > #confetti > *:nth-child(48) {
-  left: 46%;
-  animation-delay: -0.24s;
+  left: 86%;
+  animation-delay: -0.64s;
 }
 #hard-click > #confetti > *:nth-child(48) > * {
-  animation-duration: 5s;
-  animation-delay: -3.7s;
+  animation-duration: 4s;
+  animation-delay: -2.9s;
 }
 #hard-click > #confetti > *:nth-child(49) {
-  left: 98%;
-  animation-delay: -0.83s;
+  left: 15%;
+  animation-delay: -0.02s;
 }
 #hard-click > #confetti > *:nth-child(49) > * {
-  animation-duration: 5s;
-  animation-delay: -4.2s;
+  animation-duration: 4s;
+  animation-delay: -5s;
 }
 #hard-click > #confetti > *:nth-child(50) {
-  left: 99%;
-  animation-delay: -0.28s;
+  left: 77%;
+  animation-delay: -0.48s;
 }
 #hard-click > #confetti > *:nth-child(50) > * {
   animation-duration: 5s;
-  animation-delay: -5.3s;
+  animation-delay: -6.9s;
 }
 
 @media (max-width: 1000px) {
