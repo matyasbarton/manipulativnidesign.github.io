@@ -6,11 +6,6 @@ window.addEventListener("scroll", () => {
             download.click()
             localStorage['visited'] = true
         }
-        const watch = ["#hard-click"]
-        const restarters = ["hardClickRestart"]
-        for (let i=0; i<watch.length; i++) {
-            el = document.querySelector(watch[i])
-        }
     }
 })
 
